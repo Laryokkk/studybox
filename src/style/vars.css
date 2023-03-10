@@ -1,0 +1,31 @@
+/* Background colors */
+:root {
+    --background: #121212;
+    --background-extend: #FFFFFF;
+}
+
+/* Text colors */
+:root {
+    --text: #FFFFFF;
+    --text-extend: #121212;
+    --text-accent: #3632FF;
+    --text-accent-extend: #FF28D0;
+}
+
+/* Select colors */
+:root {
+    --selection: #ff00c87a;
+}
+
+:root {
+    --menu-width: calc(20vw - (2 * var(--menu-padding-width)));
+    --menu-height: calc(100vh - (2 * var(--menu-padding-height)));
+
+    --menu-padding-width: 2vw;
+    --menu-padding-height: 2vw;
+}
+
+:root {
+    --editor-width: 80vw;
+    --editor-height: 100vh;
+}
