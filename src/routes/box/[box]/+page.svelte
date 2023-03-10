@@ -4,7 +4,8 @@
 
     export let data;
 
-    $:({ author, menu, editor } = data);
+    const { author, menu } = data;
+    $: ({ editor } = data);
 </script>
 
 <section id="container">

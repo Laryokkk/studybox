@@ -2,8 +2,8 @@
     import TextEditor from "./TextEditor.svelte";
 
     export let editor;
-    
-    $:({ title, content } = editor);
+
+    $: ({ title, content } = editor);
 </script>
 
 <section id="editor">
