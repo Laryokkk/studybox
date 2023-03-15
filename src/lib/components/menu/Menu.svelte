@@ -1,5 +1,5 @@
 <script>
-    import Box from "$lib/assets/box_dark.svelte";
+    import Box from "$lib/components/common/Box.svelte";
     import Section from "./Section.svelte";
     import Author from "./Author.svelte";
 
@@ -9,7 +9,7 @@
 
 <section id="menu">
     <section id="box">
-        <Box />
+        <Box size="100"/>
     </section>
     <section id="container">
         {#each menu as { title, href }}
