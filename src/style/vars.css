@@ -1,7 +1,15 @@
+:root {
+    --accent: #FF28D0;
+    
+    --error: rgba(255, 0, 0, 0.75);
+}
+
 /* Background colors */
 :root {
     --background: #121212;
     --background-extend: #FFFFFF;
+
+    --background-input: #1F1F1F;
 }
 
 /* Text colors */
